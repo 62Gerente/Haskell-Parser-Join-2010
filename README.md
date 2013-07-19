@@ -6,5 +6,7 @@ Parser dos formulários de registo nas JOIN, criação de estatísticas e cracha
 Desenvolvido por:
 
 André Santos
+
 Helena Alves
+
 Pedro Faria
