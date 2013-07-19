@@ -1,0 +1,98 @@
+\documentclass[a4paper]{article}
+ \usepackage[portuges]{babel}
+ \usepackage[utf8]{inputenc}
+  \usepackage{fullpage}
+  \title{Estatística e Análise multi-dimensional} 
+ \author{André Santos \and Pedro Faria \and Helena Alves}
+ \date{\today} 
+ \begin{document} 
+ \maketitle
+ \tableofcontents 
+ \newpage
+ \section{Estatística Inscrições} 
+ \subsection{Número de inscritos}
+ \subsubsection{Tabelas} 
+ 
+ \begin{table}[hl] 
+ \begin{tabular}{|l|c|c|c|c|c|c|c|c|c|}  
+ \cline{2-7} 
+ \multicolumn{1}{c}{} & \multicolumn{6}{|c|}{Universidade do Minho} & \multicolumn{3}{c}{} \\ 
+ \cline{2-10} 
+ \multicolumn{1}{c|}{} & LEI & LCC & MI & MEI & MERSCOM & MBIO & Externos & Empresas & \textbf{Total} \\ 
+ \hline  
+ \textbf{Número Inscritos} &5&3&1&2&0&0&1&4&16 \\  
+ \hline  
+ \end{tabular} 
+ \caption{Número de inscritos nas Join} 
+ \end{table} 
+ \subsubsection{Gráficos} 
+ \begin{figure}[h] 
+ \centering 
+ \input{graficon} 
+ \caption{Gráfico número Inscritos JOIN} 
+ \end{figure} \newpage
+ \subsection{Número de Inscritos Almoço/Jantar}
+ \subsubsection{Tabelas} 
+ 
+ \begin{table}[hl] 
+ \begin{tabular}{|l|c|c|c|c|c|c|c|c|c|}  
+ \cline{2-7} 
+ \multicolumn{1}{c}{} & \multicolumn{6}{|c|}{Universidade do Minho} & \multicolumn{3}{c}{} \\ 
+ \cline{2-10} 
+ \multicolumn{1}{c|}{} & LEI & LCC & MI & MEI & MERSCOM & MBIO & Externos & Empresas & \textbf{Total} \\ 
+ \hline 
+ \textbf{Inscritos Almoço} &0&0&0&0&0&0&0&0& 0\\  
+ \hline  
+ \textbf{Inscritos Jantar} &0&0&0&0&0&0&0&0& 0 \\  
+ \hline  
+  
+ \end{tabular}  
+ \caption{Números de Inscritos Almoço/Jantar} 
+ \end{table}
+ 
+ \subsubsection{Gráficos}
+ \begin{figure}[h]
+ \centering
+ \input{graficoja} 
+ \caption{Tabela do número de inscritos almoço/jantar}
+ \end{figure}
+ \begin{quotation}
+ \textbf{Legenda do gráfico do Número de Inscritos Almoço/Jantar }\\ \\ 
+ 1º Coluna $=$ Inscritos no Almoço \\ 
+ 2º Coluna $=$ Inscritos no Jantar 
+ \end{quotation}
+ 
+ \newpage 
+ 
+ \begin{table}[hl] 
+ \begin{tabular}{|l|c|c|c|c|c|c|c|c|c|}  
+ \cline{2-7} 
+ \multicolumn{1}{c}{} & \multicolumn{6}{|c|}{Universidade do Minho} & \multicolumn{3}{c}{} \\ 
+ \hline  
+ \textbf{Motivos Inscrição} & LEI & LCC & MI & MEI & MERSCOM & MBIO & Externos & Empresas & \textbf{Total} \\ 
+ \hline  
+ \textbf{Interesse áreas temáticas} &3&3&1&2&0&0&1&1& 11 \\  
+ \hline  
+ \textbf{Procura 1º emprego} &3&2&1&0&0&0&0&0& 6 \\  
+ \hline  
+ \textbf{Procura proj/disst mestrado} &0&2&0&0&0&0&0&0& 2 \\  
+ \hline  
+ 
+ \textbf{Totais} &6&7&2&2&0&0&1&1&19 \\  
+ \hline  
+ \end{tabular}  
+ \caption{Motivos da Inscrição} 
+ \end{table}
+  \subsubsection{Gráficos}
+ \begin{figure}[h]
+ \centering
+ \input{graficor}
+ \caption{Motivos da inscrição nas JOIN}
+ \end{figure}
+ \begin{quotation}
+ \textbf{Legenda do gráfico dos motivos da inscrição nas JOIN}\\ \\ 
+ A $=$ Procura 1º emprego \\ 
+ B $=$ Interesse pelas áreas temáticas \\ 
+ C $=$ Procura projecto/dissertação mestrado 
+ \end{quotation}
+ \end{document}

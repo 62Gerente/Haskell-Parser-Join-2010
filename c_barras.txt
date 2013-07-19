@@ -1,0 +1,13 @@
+set terminal push
+set terminal latex
+set output "graficor.tex"
+set boxwidth 1 absolute
+set style fill solid 1.0 border -1 
+set style data histogram 
+set style histogram cluster gap 1
+set yrange [0:20]
+set xrange [-0.5:2.5]
+set xtics('A' -0.04,'B' 1, 'C' 2)
+set ylabel '' 
+set xlabel '' 
+plot 'barras.txt' using 1 t ''

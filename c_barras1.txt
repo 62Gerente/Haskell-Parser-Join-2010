@@ -1,0 +1,13 @@
+set terminal push
+set terminal latex
+set output "graficon.tex"
+set boxwidth 1 absolute
+set style fill solid 1.0 border -1 
+set style data histogram 
+set style histogram cluster gap 1
+set yrange [0:20]
+set xrange [-0.5:7.5]
+set xtics('LEI' -0.04,'LCC' 1, 'MI' 2, 'MEI' 3, 'Merscom' 4, 'MBIO' 5, 'Externos' 6, 'Empresas' 7)
+set ylabel '' 
+set xlabel '' 
+plot 'barras1.txt' using 1 t ''
